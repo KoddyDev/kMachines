@@ -1,0 +1,13 @@
+name: kMachines
+version: 1.0
+api-version: 1.17
+depend: [ mkUtils, Vault ]
+authors: [ KoddyDev, Mikael ]
+main: me.koddy.kmachines.Main
+commands:
+  maquinas:
+    description: "Comando de Maquinas"
+    permission: kmachines.maquinas
+  drops:
+    description: "Comando de Drops"
+    permission: kmachines.drops
